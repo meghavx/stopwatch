@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#stopwatch {
+    color: #85929E;
+    font-size: 10vw;
+}
+
+#controls {
+    margin: 10vh auto;  /*top-bottom & left-right  */
+}
+
+/* Icons */
+i {
+    font-size: 5vw;
+    margin: auto 2vw;
+    color: #154360;
+}
+
